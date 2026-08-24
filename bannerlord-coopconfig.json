@@ -1,0 +1,150 @@
+[
+    {
+        "DisplayName": "Save Name",
+        "Category": "Bannerlord Coop:gamepad",
+        "Subcategory": "Server:server:1",
+        "Description": "The name of the Bannerlord Coop save file.",
+        "Keywords": "save,name",
+        "FieldName": "SaveName",
+        "InputType": "text",
+        "Required": true,
+        "ParamFieldName": "saveName",
+        "DefaultValue": "saveauto1"
+    },
+    {
+        "DisplayName": "Autosave Interval",
+        "Category": "Bannerlord Coop:gamepad",
+        "Subcategory": "Server:server:1",
+        "Description": "The autosave interval in minutes.",
+        "Keywords": "autosave,interval",
+        "FieldName": "AutosaveMinutes",
+        "InputType": "number",
+        "MinValue": 1,
+        "Required": true,
+        "ParamFieldName": "autosaveMinutes",
+        "DefaultValue": "5",
+        "Suffix": "min"
+    },
+    {
+        "DisplayName": "Server Password",
+        "Category": "Bannerlord Coop:gamepad",
+        "Subcategory": "Security:lock:2",
+        "Description": "The server password used for the server.",
+        "Keywords": "server,password",
+        "FieldName": "Server Password",
+        "InputType": "text",
+        "ParamFieldName": "password",
+        "DefaultValue": ""
+    },
+    {
+        "DisplayName": "Write Log File",
+        "Category": "Bannerlord Coop:gamepad",
+        "Subcategory": "Server:server:1",
+        "Description": "Toggles whether the server writes an activity log file to directory.",
+        "Keywords": "write,log,file",
+        "FieldName": "LogFile",
+        "InputType": "checkbox",
+        "ParamFieldName": "logFile",
+        "DefaultValue": "true",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Use Steam Server",
+        "Category": "Bannerlord Coop:gamepad",
+        "Subcategory": "Network:wifi:3",
+        "Description": "Toggles whether or not to run as a Steam Server. (NOTE: Set \"false\" for direct IP connection. \"true\" does not require port forwarding.)",
+        "Keywords": "use,steam,server",
+        "FieldName": "SteamServer",
+        "InputType": "checkbox",
+        "ParamFieldName": "steam",
+        "DefaultValue": "false",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Battle Size",
+        "Category": "Bannerlord Coop:gamepad",
+        "Subcategory": "Gameplay:swords:4",
+        "Description": "Total human troops initially allocated across both sides of a battle.",
+        "Keywords": "battle,size",
+        "FieldName": "BattleSize",
+        "InputType": "enum",
+        "ParamFieldName": "modOptions.battleSize",
+        "DefaultValue": "1000",
+        "Suffix": "troops",
+        "EnumValues": {
+            "200": "200 Troops",
+            "300": "300 Troops",
+            "400": "400 Troops",
+            "500": "500 Troops",
+            "600": "600 Troops",
+            "700": "700 Troops",
+            "800": "800 Troops",
+            "900": "900 Troops",
+            "1000": "1000 Troops"
+        }
+    },
+    {
+        "DisplayName": "Fast Forward Enabled",
+        "Category": "Bannerlord Coop:gamepad",
+        "Subcategory": "Gameplay:swords:4",
+        "Description": "Toggle fast forward (2x speed) being enabled.",
+        "Keywords": "fast,forward,enabled",
+        "FieldName": "FastForward",
+        "InputType": "checkbox",
+        "ParamFieldName": "modOptions.fastForwardEnabled",
+        "DefaultValue": "true",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Allow Client Cheats",
+        "Category": "Bannerlord Coop:gamepad",
+        "Subcategory": "Gameplay:swords:4",
+        "Description": "Toggle clients being able to use cheats.",
+        "Keywords": "allow,client,cheats",
+        "FieldName": "ClientCheats",
+        "InputType": "checkbox",
+        "ParamFieldName": "modOptions.clientsCanUseCheats",
+        "DefaultValue": "false",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Allow Hero Executions",
+        "Category": "Bannerlord Coop:gamepad",
+        "Subcategory": "Gameplay:swords:4",
+        "Description": "Toggle players being able to execute heroes.",
+        "Keywords": "allow,hero,executions",
+        "FieldName": "HeroExecutions",
+        "InputType": "checkbox",
+        "ParamFieldName": "modOptions.enableHeroExecutions",
+        "DefaultValue": "true",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Max Looters Multiplier",
+        "Category": "Bannerlord Coop:gamepad",
+        "Subcategory": "World:earth:5",
+        "Description": "Set a multiplier for increasing/decreasing the number of looter/bandit parties.",
+        "Keywords": "max,looters,multiplier",
+        "FieldName": "LootersMultiplier",
+        "InputType": "number",
+        "MinValue": 0.1,
+        "MaxValue": 10,
+        "ParamFieldName": "modOptions.maximumLootersMultiplier",
+        "DefaultValue": "1"
+    }
+]

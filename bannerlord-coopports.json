@@ -1,0 +1,17 @@
+[
+    {
+        "Protocol": "UDP",
+        "Port": 4200,
+        "Ref": "MainGamePort",
+        "Name": "Main Game Port",
+        "Description": "Port for main traffic.",
+        "Required": true
+    },
+    {
+        "Protocol": "UDP",
+        "Port": 4201,
+        "Ref": "AdminPort",
+        "Name": "Admin Port",
+        "Description": "Port for secondary traffic."
+    }
+]

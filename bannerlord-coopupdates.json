@@ -1,0 +1,13 @@
+[
+    {
+        "UpdateStageName": "Download mod",
+        "UpdateStageDescription": "Downloading dedicated server tool.",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceArch": "x86_64",
+        "UpdateSourceData": "261550",
+        "UpdateSourceArgs": "261550",
+        "UpdateSourceExtra": "3770450698",
+        "ForceDownloadPlatform": "Windows"
+    }
+]

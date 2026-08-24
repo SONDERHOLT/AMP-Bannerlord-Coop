@@ -1,0 +1,14 @@
+[
+    {
+        "ConfigFile": "steamapps/workshop/content/261550/3770450698/DedicatedServer/server-data/mod-config.json",
+        "ConfigType": "json",
+        "AutoMap": true,
+        "Importable": true
+    },
+    {
+        "ConfigFile": "../.wine/drive_c/users/amp/Documents/Mount and Blade II Bannerlord/CoopData/DedicatedServer/server-config.json",
+        "ConfigType": "json",
+        "AutoMap": true,
+        "Importable": true
+    }
+]
