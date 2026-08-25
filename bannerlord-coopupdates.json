@@ -3,11 +3,11 @@
         "UpdateStageName": "Download mod",
         "UpdateStageDescription": "Downloading dedicated server tool.",
         "UpdateSourcePlatform": "All",
-        "UpdateSource": "SteamCMD",
+        "UpdateSource": "GithubRelease",
         "UpdateSourceArch": "x86_64",
-        "UpdateSourceData": "1007",
-        "UpdateSourceArgs": "261550",
-        "UpdateSourceExtra": "3770450698",
+        "UpdateSourceData": "Bannerlord-Coop-Team/BannerlordCoop",
+        "UpdateSourceArgs": ".*\\.zip",
+        "UpdateSourceExtra": "",
         "ForceDownloadPlatform": "Windows"
     }
 ]
