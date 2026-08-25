@@ -8,6 +8,14 @@
         "UpdateSourceData": "https://github.com/Bannerlord-Coop-Team/BannerlordCoop/releases/download/v0.1.3/Coop.7z",
         "UpdateSourceArgs": "Coop.7z",
         "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true
+    },
+    {
+        "UpdateStageName": "Extracting server",
+        "UpdateStageDescription": "Extracting server from archive.",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "ExtractArchive",
+        "UpdateSourceData": "./bannerlord-coop/Coop.7z",
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true
     }
