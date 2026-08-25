@@ -1,22 +1,13 @@
 [
     {
-        "UpdateStageName": "Download mod",
-        "UpdateStageDescription": "Downloading dedicated server tool.",
+        "UpdateStageName": "Download server tool",
+        "UpdateStageDescription": "Downloading server console tool from ModDB",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
         "UpdateSourceArch": "x86_64",
-        "UpdateSourceData": "https://github.com/Bannerlord-Coop-Team/BannerlordCoop/releases/download/v0.1.3/Coop.7z",
-        "UpdateSourceArgs": "Coop.7z",
-        "UpdateSourceTarget": "serverfiles",
+        "UpdateSourceData": "https://www.moddb.com/downloads/start/313475?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fbannerlord-coop",
+        "UpdateSourceArgs": "DedicatedServer.7z",
         "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": true
-    },
-    {
-        "UpdateStageName": "Extracting server",
-        "UpdateStageDescription": "Extracting server from archive.",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "ExtractArchive",
-        "UpdateSourceData": "Coop.7z",
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true
     }
