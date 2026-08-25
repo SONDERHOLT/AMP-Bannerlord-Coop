@@ -15,7 +15,8 @@
         "UpdateStageDescription": "Extracting server from archive.",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "ExtractArchive",
-        "UpdateSourceData": "Coop.7z",
+        "UpdateSourceData": "bannerlord-coop/Coop.7z",
+        "UpdateSourceTarget": "bannerlord-coop/serverfiles",
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true
     }
