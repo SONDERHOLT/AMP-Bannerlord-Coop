@@ -3,10 +3,10 @@
         "UpdateStageName": "Download mod",
         "UpdateStageDescription": "Downloading dedicated server tool.",
         "UpdateSourcePlatform": "All",
-        "UpdateSource": "GithubRelease",
+        "UpdateSource": "FetchURLfromJQ",
         "UpdateSourceArch": "x86_64",
-        "UpdateSourceData": ".*\\\\.zip",
-        "UpdateSourceArgs": "Bannerlord-Coop-Team/BannerlordCoop",
+        "UpdateSourceData": "[https://api.github.com/repos/Bannerlord-Coop-Team/BannerlordCoop/releases](https://api.github.com/repos/Bannerlord-Coop-Team/BannerlordCoop/releases)",
+        "UpdateSourceArgs": ".[0].assets[0].browser_download_url",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true
