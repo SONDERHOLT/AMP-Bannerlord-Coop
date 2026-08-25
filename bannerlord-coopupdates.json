@@ -5,7 +5,8 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
         "UpdateSourceArch": "x86_64",
-        "UpdateSourceData": "[https://github.com/Bannerlord-Coop-Team/BannerlordCoop/releases/download/v0.1.3/Coop.7z](https://github.com/Bannerlord-Coop-Team/BannerlordCoop/releases/download/v0.1.3/Coop.7z)",
+        "UpdateSourceData": "https://github.com/Bannerlord-Coop-Team/BannerlordCoop/releases/download/v0.1.3/Coop.7z",
+        "UpdateSourceArgs": "Coop.7z",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true
