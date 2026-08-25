@@ -5,7 +5,7 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceArch": "x86_64",
-        "UpdateSourceData": "",
+        "UpdateSourceData": "1007",
         "UpdateSourceArgs": "261550",
         "UpdateSourceExtra": "3770450698",
         "ForceDownloadPlatform": "Windows"
