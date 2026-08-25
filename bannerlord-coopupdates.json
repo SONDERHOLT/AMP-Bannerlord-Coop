@@ -1,13 +1,11 @@
 [
     {
-        "UpdateStageName": "Download server tool",
-        "UpdateStageDescription": "Downloading server console tool from ModDB",
+        "UpdateStageName": "Extract server tool",
+        "UpdateStageDescription": "Extracting server console tool from provided .7z file",
         "UpdateSourcePlatform": "All",
-        "UpdateSource": "FetchURL",
+        "UpdateSource": "ExtractArchive",
         "UpdateSourceArch": "x86_64",
-        "UpdateSourceData": "https://www.moddb.com/downloads/mirror/313475/130/ceb30dcbc13e6b8deb2ebb3d87d683ff/?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fbannerlord-coop",
-        "UpdateSourceArgs": "DedicatedServer.7z",
-        "UnzipUpdateSource": true,
+        "UpdateSourceData": "Coop.7z",
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true
     }
