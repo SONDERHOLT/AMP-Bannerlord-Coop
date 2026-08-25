@@ -5,7 +5,7 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
         "UpdateSourceArch": "x86_64",
-        "UpdateSourceData": "https://www.moddb.com/downloads/mirror/313475/130/053e468d28536b43d676efe4696c6426/?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fbannerlord-coop",
+        "UpdateSourceData": "https://www.moddb.com/downloads/mirror/313475/130/ceb30dcbc13e6b8deb2ebb3d87d683ff/?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fbannerlord-coop",
         "UpdateSourceArgs": "DedicatedServer.7z",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
