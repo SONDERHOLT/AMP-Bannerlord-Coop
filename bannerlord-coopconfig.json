@@ -146,5 +146,279 @@
         "MaxValue": 10,
         "ParamFieldName": "modOptions.maximumLootersMultiplier",
         "DefaultValue": "1"
+    },
+    {
+        "DisplayName": "Player Received Damage",
+        "Category": "Bannerlord Coop:gamepad",
+        "Subcategory": "Difficulty:swords:5",
+        "Description": "Player damage difficulty setting.",
+        "Keywords": "player,received,damage",
+        "FieldName": "PlayerReceivedDamage",
+        "InputType": "enum",
+        "ParamFieldName": "difficulty.playerReceivedDamage",
+        "DefaultValue": "VeryEasy",
+        "EnumValues": {
+            "VeryEasy": "Very Easy",
+            "Easy": "Easy",
+            "Realistic": "Realistic"
+        }
+    },
+    {
+        "DisplayName": "Player Troops Received Damage",
+        "Category": "Bannerlord Coop:gamepad",
+        "Subcategory": "Difficulty:swords:5",
+        "Description": "Player troops received damage difficulty setting.",
+        "Keywords": "player,troops,received,damage",
+        "FieldName": "PlayerTroopsReceivedDamage",
+        "InputType": "enum",
+        "ParamFieldName": "playerTroopsReceivdifficulty.playerTroopsReceivedDamageedDamage",
+        "DefaultValue": "VeryEasy",
+        "EnumValues": {
+            "VeryEasy": "Very Easy",
+            "Easy": "Easy",
+            "Realistic": "Realistic"
+        }
+    },
+    {
+        "DisplayName": "Combat AI Difficulty",
+        "Category": "Bannerlord Coop:gamepad",
+        "Subcategory": "Difficulty:swords:5",
+        "Description": "The difficulty setting for AI in battles",
+        "Keywords": "combat,ai,difficulty",
+        "FieldName": "CombatAIDifficulty",
+        "InputType": "enum",
+        "ParamFieldName": "difficulty.combatAIDifficulty",
+        "DefaultValue": "VeryEasy",
+        "EnumValues": {
+            "VeryEasy": "Very Easy",
+            "Easy": "Easy",
+            "Realistic": "Realistic"
+        }
+    },
+    {
+        "DisplayName": "Recruitment Difficulty",
+        "Category": "Bannerlord Coop:gamepad",
+        "Subcategory": "Difficulty:sword:5",
+        "Description": "Difficulty setting for recruitment of units in settlements.",
+        "Keywords": "recruitment,difficulty",
+        "FieldName": "RecruitmentDifficulty",
+        "InputType": "enum",
+        "ParamFieldName": "difficulty.recruitmentDifficulty",
+        "DefaultValue": "VeryEasy",
+        "EnumValues": {
+            "VeryEasy": "Very Easy",
+            "Easy": "Easy",
+            "Realistic": "Realistic"
+        }
+    },
+    {
+        "DisplayName": "Stealth Difficulty",
+        "Category": "Bannerlord Coop:gamepad",
+        "Subcategory": "Difficulty:sword:5",
+        "Description": "Setting for the difficulty of stealth and disguising.",
+        "Keywords": "stealth,difficulty",
+        "FieldName": "StealthAndDisguiseDifficulty",
+        "InputType": "enum",
+        "ParamFieldName": "difficulty.stealthAndDisguiseDifficulty",
+        "DefaultValue": "VeryEasy",
+        "EnumValues": {
+            "VeryEasy": "Very Easy",
+            "Easy": "Easy",
+            "Realistic": "Realistic"
+        }
+    },
+    {
+        "DisplayName": "Persuasion Success Chance",
+        "Category": "Bannerlord Coop:gamepad",
+        "Subcategory": "Difficulty:sword:5",
+        "Description": "Difficulty setting for the likelihood of persuasion success.",
+        "Keywords": "persuasion,success,chance",
+        "FieldName": "PersuasionSuccessChance",
+        "InputType": "enum",
+        "ParamFieldName": "difficulty.persuasionSuccessChance",
+        "DefaultValue": "VeryEasy",
+        "EnumValues": {
+            "VeryEasy": "VeryEasy",
+            "Easy": "Easy",
+            "Realistic": "Realistic"
+        }
+    },
+    {
+        "DisplayName": "Clan Member Death Chance",
+        "Category": "Bannerlord Coop:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Difficulty setting for likelihood of clan members dying.",
+        "Keywords": "clan,member,death,chance",
+        "FieldName": "ClanMemberDeathChance",
+        "InputType": "enum",
+        "ParamFieldName": "difficulty.clanMemberDeathChance",
+        "DefaultValue": "VeryEasy",
+        "EnumValues": {
+            "VeryEasy": "Very Easy",
+            "Easy": "Easy",
+            "Realistic": "Realistic"
+        }
+    },
+    {
+        "DisplayName": "Battle Death",
+        "Category": "Bannerlord Coop:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Difficulty setting for battle death of player. (NOTE: VeryEasy can't die)",
+        "Keywords": "battle,death",
+        "FieldName": "BattleDeath",
+        "InputType": "enum",
+        "ParamFieldName": "difficulty.battleDeath",
+        "DefaultValue": "VeryEasy",
+        "EnumValues": {
+            "VeryEasy": "Very Easy",
+            "Easy": "Easy",
+            "Realistic": "Realistic"
+        }
+    },
+    {
+        "DisplayName": "Birth and Death (Aging & Natural Deaths)",
+        "Category": "Bannerlord Coop:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Whether or not players and characters can be born and die.",
+        "Keywords": "birth,and,death,(aging,&,natural,deaths)",
+        "FieldName": "BirthAndDeath",
+        "InputType": "checkbox",
+        "ParamFieldName": "difficulty.birthAndDeath",
+        "DefaultValue": "false",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Toggle Auto Pause",
+        "Category": "Bannerlord Coop:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Toggle for whether or not the game will auto pause when all characters are stationary or in Map Events.",
+        "Keywords": "toggle,auto,pause",
+        "FieldName": "AutoPauseEnabled",
+        "InputType": "checkbox",
+        "ParamFieldName": "modOptions.autoPauseEnabled",
+        "DefaultValue": "true",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Toggle Gold & Food Change in Settlements",
+        "Category": "Bannerlord Coop:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Toggle Gold & food change while in settlements. (NOTE: This includes income)",
+        "Keywords": "toggle,gold,&,food,change,in,settlements",
+        "FieldName": "GoldFoodInfluenceChangeInSettlements",
+        "InputType": "checkbox",
+        "ParamFieldName": "modOptions.goldFoodInfluenceChangeInSettlements",
+        "DefaultValue": "true",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Toggle Gold & Food Change in Battles",
+        "Category": "Bannerlord Coop:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Set gold & food change mode for battles. (NOTE: This includes income)",
+        "Keywords": "toggle,gold,&,food,change,in,battles",
+        "FieldName": "GoldFoodInfluenceChangeInBattles",
+        "InputType": "enum",
+        "ParamFieldName": "modOptions.goldFoodInfluenceChangeInBattles",
+        "DefaultValue": "OneDayMax",
+        "EnumValues": {
+            "Disabled": "Disabled",
+            "OneDayMax": "One Day Max"
+        }
+    },
+    {
+        "DisplayName": "Toggle Gold & Food Change for Disconnected Players",
+        "Category": "Bannerlord Coop:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Set gold, food & influence change for disconnected players. (NOTE: This includes income)",
+        "Keywords": "toggle,gold,&,food,change,for,disconnected,players",
+        "FieldName": "GoldFoodInfluenceChangeForDisconnectedPlayers",
+        "InputType": "checkbox",
+        "ParamFieldName": "modOptions.goldFoodInfluenceChangeForDisconnectedPlayers",
+        "DefaultValue": "false",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Player Battle AI Join Window",
+        "Category": "Bannerlord Coop:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Set grace period (hours) for AI parties to be able to join battles involving players.",
+        "Keywords": "player,battle,ai,join,window",
+        "FieldName": "PlayerBattleAiJoinWindowHours",
+        "InputType": "number",
+        "MinValue": 1,
+        "ParamFieldName": "modOptions.playerBattleAiJoinWindowHours",
+        "DefaultValue": "24",
+        "Suffix": "hours"
+    },
+    {
+        "DisplayName": "Toggle Speed Limit While Players In Battle",
+        "Category": "Bannerlord Coop:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Toggle speed limit when players are in a battle.",
+        "Keywords": "toggle,speed,limit,while,players,in,battle",
+        "FieldName": "SpeedLimitWhilePlayersInBattle",
+        "InputType": "checkbox",
+        "ParamFieldName": "speedLimitWhilePlayersInBattle",
+        "DefaultValue": "true",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Wanderer Limit",
+        "Category": "Bannerlord Coop:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Number of wanderers/companions that can exist at a time. (NOTE:  Vanilla/default limit is numberOfTowns * 0.6 ≈ 32)",
+        "Keywords": "wanderer,limit",
+        "FieldName": "WandererLimit",
+        "InputType": "number",
+        "MinValue": 1,
+        "MaxValue": 64,
+        "ParamFieldName": "wandererLimit",
+        "DefaultValue": "32",
+        "Suffix": "wanderers"
+    },
+    {
+        "DisplayName": "Toggle Wanderer Limit Scales With Players",
+        "Category": "Bannerlord Coop:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Toggle scaling the wanderer/companion limit with the number of players on the campaign map.",
+        "Keywords": "toggle,wanderer,limit,scales,with,players",
+        "FieldName": "WandererLimitScalesWithPlayers",
+        "InputType": "checkbox",
+        "ParamFieldName": "wandererLimitScalesWithPlayers",
+        "DefaultValue": "false",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Toggle Player Kingdom Clan Tier Required",
+        "Category": "Bannerlord Coop:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Set a custom clan tier required to form a player kingdom.",
+        "Keywords": "toggle,player,kingdom,clan,tier,required",
+        "FieldName": "PlayerKingdomClanTierRequired",
+        "InputType": "number",
+        "MinValue": 1,
+        "MaxValue": 6,
+        "ParamFieldName": "modOptions.playerKingdomClanTierRequired",
+        "DefaultValue": "4",
+        "Suffix": "tier"
     }
 ]
