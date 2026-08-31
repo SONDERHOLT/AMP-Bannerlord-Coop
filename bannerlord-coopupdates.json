@@ -5,7 +5,7 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "ExtractArchive",
         "UpdateSourceArch": "x86_64",
-        "UpdateSourceData": "./bannerlord-coop/serverfiles/Coop.7z",
+        "UpdateSourceData": "__VDS__BannerlordCoop01/bannerlord-coop/serverfiles/Coop.7z",
         "UpdateSourceTarget": "serverfiles",
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true
